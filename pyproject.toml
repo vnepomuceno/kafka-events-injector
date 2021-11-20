@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kafka-events-injector"
+version = "0.1.0"
+description = ""
+authors = ["Valter Nepomuceno <valter.nepomuceno@onfido.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+kafka-python = "^2.0.2"
+coloredlogs = "^15.0.1"
+black = "^21.11b1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
